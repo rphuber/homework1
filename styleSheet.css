@@ -1,0 +1,159 @@
+html {
+  background-image: url("images/beerBackground.jpg");
+}
+
+h1 {
+  text-align:center;
+}
+
+.background {
+  display:block;
+  width:75%;
+  position:relative;
+  min-height:400px;
+  background-image: url("images/beerBackground.jpg");
+  margin: 0 auto;
+}
+
+header {
+  display:block;
+  width: 100px%;
+  min-width:375px;
+  background-image: url("images/brickwall.png");
+  position:relative;
+}
+
+
+.logo {
+  display:block;
+  height:200px;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+
+nav {
+  margin:0;
+  padding:0;
+}
+
+header nav {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  margin:0;
+  padding:0;
+}
+nav ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+nav li {
+  display:inline-block;
+  margin-left:10px;
+  padding:15px;
+  font-size:1.25em;
+}
+
+nav a {
+  color:black;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+
+nav a:hover {
+  border-top:5px solid rgba(128,128,128,0.5);
+}
+
+
+.links{
+  width:100%;
+}
+
+.box {
+  display:inline-block;
+  width:30%;
+  margin-left:20px;
+  padding:0;
+  background-color:grey;
+  border-radius:15;
+}
+
+.box img {
+  width:100%;
+  border-radius:15;
+}
+
+.links a:hover {
+  opacity:.75;
+}
+
+.lineup img {
+  display:block;
+  width:100%;
+  border-radius:10;
+}
+
+.bio {
+  height:250px;
+  border-radius:150;
+}
+
+.bioContainer{
+  border-radius:10;
+  margin:15px;
+  width:100%;
+  background-color:white;
+}
+
+.bioContainer .bio {
+  vertical-align:top;
+  margin:15px;
+  width:30%;
+  display:inline-block;
+}
+
+.bioContainer p {
+  margin-left:5px;
+  margin-top:100px;
+  width: 65%;
+  display:inline-block;
+}
+
+.beersLeft {
+  display:inline-block;
+  width:45%;
+  min-height:200px;
+}
+
+.beersRight {
+  display:inline-block;
+  width:45%;
+  min-height:200px;
+}
+
+.beerList {
+  display: inline-block;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+
+}
+
+.beerList li {
+  list-style:none;
+}
+
+.beerList a:hover {
+  color:grey;
+}
+
+.content {
+  background-color:rgba(255,255,255,0.5);
+  border-radius:10;
+  margin-top:15px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  min-height:250px;
+}
