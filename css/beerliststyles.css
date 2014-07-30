@@ -1,0 +1,415 @@
+.background {
+  width: 100%; }
+
+.lineup {
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .lineup {
+      display: none; } }
+  .lineup img {
+    display: block;
+    width: 100%;
+    opacity: 0.7; }
+    @media screen and (device-aspect-ratio: 40/71) {
+      .lineup img {
+        display: none; } }
+
+.logobox {
+  display: none; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .logobox {
+      display: block; } }
+
+.logo {
+  display: none; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .logo {
+      display: block; } }
+
+.logobox nav {
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .logobox nav {
+      text-align: center; } }
+
+.beercan {
+  background-color: #434a54;
+  text-align: center; }
+
+.beercan nav {
+  text-align: center;
+  background-color: #f5f7fa; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .beercan nav {
+      display: none; } }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 1.25em; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    nav li {
+      font-size: 4em;
+      text-align: center; } }
+
+nav a {
+  color: #434a54;
+  padding-top: 5px;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+nav a:hover {
+  border-top: 5px solid #434a54; }
+
+.beerca {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-color: #434a54; }
+  .beerca h1 {
+    margin-top: 0;
+    margin-left: 25px;
+    color: #f5f7fa; }
+    @media screen and (device-aspect-ratio: 40/71) {
+      .beerca h1 {
+        font-size: 400%; } }
+  .beerca p {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #f5f7fa; }
+    @media screen and (device-aspect-ratio: 40/71) {
+      .beerca p {
+        font-size: 300%; } }
+  .beerca a {
+    color: #5D9CEC; }
+
+.beersLeft {
+  display: inline-block;
+  width: 45%;
+  min-height: 200px; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .beersLeft {
+      display: block;
+      width: 100%; } }
+
+.beersRight {
+  display: inline-block;
+  width: 45%;
+  min-height: 200px; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .beersRight {
+      display: block;
+      width: 100%; } }
+
+.beerList {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+.beerList li {
+  list-style: none;
+  color: #f5f7fa; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .beerList li {
+      font-size: 4em; } }
+
+.beerList a:hover {
+  color: grey; }
+
+.content {
+  width: 100%;
+  background-color: #434a54;
+  text-align: center; }
+  .content nav {
+    background-color: #f5f7fa; }
+    .content nav p {
+      color: #434a54; }
+
+.firstBatchDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.firstBatch:hover .firstBatchDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .firstBatch:hover .firstBatchDescribe {
+      display: none; } }
+
+.holidayWarmerDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.holidayWarmer:hover .holidayWarmerDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .holidayWarmer:hover .holidayWarmerDescribe {
+      display: none; } }
+
+.erinGoBrauDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.erinGoBrau:hover .erinGoBrauDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .erinGoBrau:hover .erinGoBrauDescribe {
+      display: none; } }
+
+.fourChinDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.fourChin:hover .fourChinDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .fourChin:hover .fourChinDescribe {
+      display: none; } }
+
+.ripDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.rip:hover .ripDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .rip:hover .ripDescribe {
+      display: none; } }
+
+.toastedWheatDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.toastedWheat:hover .toastedWheatDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .toastedWheat:hover .toastedWheatDescribe {
+      display: none; } }
+
+.nightShiftDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.nightShift:hover .nightShiftDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .nightShift:hover .nightShiftDescribe {
+      display: none; } }
+
+.yuleTideAleDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.yuleTideAle:hover .yuleTideAleDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .yuleTideAle:hover .yuleTideAleDescribe {
+      display: none; } }
+
+.altTimerDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.altTimer:hover .altTimerDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .altTimer:hover .altTimerDescribe {
+      display: none; } }
+
+.derHeiferDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.derHeifer:hover .derHeiferDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .derHeifer:hover .derHeiferDescribe {
+      display: none; } }
+
+.luckyPennyDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.luckyPenny:hover .luckyPennyDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .luckyPenny:hover .luckyPennyDescribe {
+      display: none; } }
+
+.maplePorterDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.maplePorter:hover .maplePorterDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .maplePorter:hover .maplePorterDescribe {
+      display: none; } }
+
+.appleCoreDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.appleCore:hover .appleCoreDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .appleCore:hover .appleCoreDescribe {
+      display: none; } }
+
+.czechMateDescribe {
+  display: none;
+  background-color: #f5f7fa;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #434a54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.czechMate:hover .czechMateDescribe {
+  display: block;
+  width: 100%; }
+  @media screen and (device-aspect-ratio: 40/71) {
+    .czechMate:hover .czechMateDescribe {
+      display: none; } }

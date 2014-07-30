@@ -1,0 +1,276 @@
+$darkcolor: #434a54;
+$lightcolor: #f5f7fa;
+$break-small: 320px;
+
+
+
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.background {
+  display:block;
+  width:100%;
+  position:relative;
+  margin: 0 auto;
+}
+
+header {
+  display:block;
+  width: 100%;
+  background-color: $lightcolor;
+  position:relative;
+  margin:0;
+  padding:0;
+}
+
+.logo {
+  display:block;
+  height:200px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    height: 400px;
+  }
+}
+
+nav {
+  margin:0;
+  padding:0;
+}
+
+.logobox nav {
+  text-align:right;
+  padding-right:10px;
+  padding-bottom:10px;
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    text-align:center;
+  }
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+nav li {
+  display:inline-block;
+  margin-left:10px;
+  padding:15px;
+  font-size:1.25em;
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    font-size: 4em;
+    text-align: center;
+  }
+}
+
+nav a {
+  color:$darkcolor;
+  padding-top: 5px;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+
+nav a:hover {
+  border-top:5px solid $darkcolor;
+}
+
+
+.content {
+  width:100%;
+  padding-top:25px;
+  padding-bottom: 50px;
+  background-color: $darkcolor;
+
+  h1 {
+    margin-top:0;
+    margin-left: 25px;
+    color: $lightcolor;
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      font-size: 400%;
+
+    }
+  }
+
+  p {
+    margin-left: 25px;
+    margin-right: 25px;
+    color:$lightcolor;
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      font-size:300%;
+    }
+
+  }
+
+  a {
+    color: #5D9CEC;
+  }
+}
+
+.links{
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  overflow: auto;
+  @media screen and (device-aspect-ratio: 40/71) {
+    max-width: 1500px;
+  }
+}
+
+.box {
+  float:left;
+  display:inline-block;
+  width:33.3333%;
+  padding:0;
+
+@media screen and (device-aspect-ratio: 40/71) {
+  display:block;
+  width:100%;
+}
+
+}
+
+.box img {
+  width:100%;
+}
+
+.links a:hover {
+  opacity:.75;
+}
+
+.welcome {
+  width:100%;
+  background-color: $lightcolor;
+  overflow:auto;
+
+    h1 {
+      text-align:center;
+      color:$darkcolor;
+        @media screen and (device-aspect-ratio: 40/71) {
+          font-size: 5em;
+        }
+
+    }
+
+    nav {
+      text-align:center;
+      padding-right:10px;
+      padding-bottom:10px;
+    }
+
+    nav ul {
+      margin:0;
+      padding:0;
+      list-style-type: none;
+    }
+    nav li {
+      display:inline-block;
+      margin-left:10px;
+      padding:15px;
+      font-size:1.25em;
+      @media screen and (device-aspect-ratio: 40/71) {
+        font-size: 4em;
+        text-align: center;
+      }
+    }
+    nav a {
+      color:$darkcolor;
+      padding-top: 5px;
+      text-decoration:none;
+      box-sizing: border-box;
+    }
+
+    nav a:hover {
+      border-top:5px solid $darkcolor;
+    }
+}
+
+.bioContainer1{
+  width:100%;
+  text-align:center;
+  background-color:$darkcolor;
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    padding:10px;
+  }
+
+  img {
+    height: 15%;
+    border-radius: 100%;
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      height: 500px;
+      display: block;
+    }
+  }
+}
+
+.bioContainer2{
+  width:100%;
+  background-color:$lightcolor;
+  text-align:center;
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    padding:10px;
+  }
+
+  img {
+    height: 15%;
+    border-radius: 100%;
+
+
+    @media screen and (device-aspect-ratio: 40/71) {
+      height: 500px;
+      display: block;
+    }
+  }
+}
+
+.bioContainer1 .father, .bioContainer2 .son {
+  vertical-align:middle;
+  margin:15px;
+  display:inline-block;
+
+}
+
+.bioContainer1 p {
+  margin-left:25px;
+  margin-top:50px;
+  margin-bottom:50px;
+  display:inline-block;
+  width:65%;
+  color: $lightcolor;
+  vertical-align: middle;
+    @media screen and (device-aspect-ratio: 40/71) {
+      margin-left:0px;
+      margin-top:0px;
+      margin-bottom:0px;
+      display:block;
+      width:100%;
+      font-size: 4em;
+    }
+}
+
+.bioContainer2 p {
+  margin-left:25px;
+  margin-top:50px;
+  margin-bottom:50px;
+  display:inline-block;
+  width:65%;
+  vertical-align: middle;
+    @media screen and (device-aspect-ratio: 40/71) {
+      margin-left:0px;
+      margin-top:0px;
+      margin-bottom:0px;
+      display:block;
+      width:100%;
+      font-size: 4em;
+    }
+}

@@ -1,0 +1,265 @@
+.firstBatchDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.firstBatch:hover .firstBatchDescribe {
+  display: block;
+  width: 100%; }
+
+.holidayWarmerDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.holidayWarmer:hover .holidayWarmerDescribe {
+  display: block;
+  width: 100%; }
+
+.erinGoBrauDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.erinGoBrau:hover .erinGoBrauDescribe {
+  display: block;
+  width: 100%; }
+
+.fourChinDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.fourChin:hover .fourChinDescribe {
+  display: block;
+  width: 100%; }
+
+.ripDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.rip:hover .ripDescribe {
+  display: block;
+  width: 100%; }
+
+.toastedWheatDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.toastedWheat:hover .toastedWheatDescribe {
+  display: block;
+  width: 100%; }
+
+.nightShiftDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.nightShift:hover .nightShiftDescribe {
+  display: block;
+  width: 100%; }
+
+.yuleTideAleDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.yuleTideAle:hover .yuleTideAleDescribe {
+  display: block;
+  width: 100%; }
+
+.altTimerDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.altTimer:hover .altTimerDescribe {
+  display: block;
+  width: 100%; }
+
+.derHeiferDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.derHeifer:hover .derHeiferDescribe {
+  display: block;
+  width: 100%; }
+
+.luckyPennyDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.luckyPenny:hover .luckyPennyDescribe {
+  display: block;
+  width: 100%; }
+
+.maplePorterDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.maplePorter:hover .maplePorterDescribe {
+  display: block;
+  width: 100%; }
+
+.appleCoreDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.appleCore:hover .appleCoreDescribe {
+  display: block;
+  width: 100%; }
+
+.czechMateDescribe {
+  border-top: 5px double red;
+  border-bottom: 5px double red;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.czechMate:hover .czechMateDescribe {
+  display: block;
+  width: 100%; }
